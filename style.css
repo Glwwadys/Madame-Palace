@@ -1,0 +1,72 @@
+h2 {
+	color:#850E35;
+	font-family: 'Julius Sans One', sans-serif;
+
+}
+body {
+	color: black;
+	background-color: #FFF5E4;
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	font-family: 'Limelight', cursive;
+	color: black;
+	font-size: 60px
+}
+.container {
+	width: 700px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	border-radius: 6px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	padding: 30px;
+	margin: 50px auto;
+}
+.btn-pink{
+	font-size: 13px;
+	color: white;
+	width: 160px;
+	background-color: #E00543;
+	border-radius: 4px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	padding: 05px;
+	margin: 7px auto;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.img-circle{
+	border-radius: 50%;
+	width: 70px;
+}
+
+.btn-pink:hover {
+	background-color: #A6CB12;
+
+
+
